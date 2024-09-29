@@ -8,13 +8,10 @@ return {
 
       -- or "all"
       ensure_installed = {
-        "arduino", "c", "cpp", "java", "kotlin", "lua", "luadoc", "ocaml", "ocaml_interface", "python", "requirements", "rust", "sql", "vim", "vimdoc",
-        "awk", "bash", "cmake", "csv", "diff", "dockerfile", "editorconfig", "gnuplot", "gpg", "hyprlang", "make", "passwd", "printf", "readline", "regex", "ssh_config", "strace", "udev", "zathurarc",
-        "asm", "devicetree", "disassembly", "objdump",
-        "bibtex", "comment", "latex", "markdown", "markdown_inline", "mermaid", "norg", "org", "rst", "todotxt", "toml", "typst", "xml", "yaml",
-        "css", "html", "http", "javascript", "jsdoc", "json", "robots", "scss", "styled",
+        "c", "lua", "vim", "vimdoc",
+        "awk", "bash", "cmake", "diff", "make", "passwd", "printf", "readline", "regex", "ssh_config", "strace", "udev", "zathurarc",
+        "comment", "markdown", "markdown_inline",
         "git_config", "git_rebase", "gitattributes", "gitcommit", "gitignore",
-        "tiger",
       },
 
       -- only applied to `ensure_installed`

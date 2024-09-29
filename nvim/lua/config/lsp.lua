@@ -81,6 +81,7 @@ require'lspconfig'.lua_ls.setup(
   }
 })
 
+--[[
 -- Python pyls (jedi, ruff, rope, mypy)
 
 -- install `pyls` plugins
@@ -229,3 +230,4 @@ require'lspconfig'.tinymist.setup(
     },
   }
 )
+--]]
