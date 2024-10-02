@@ -3,7 +3,7 @@ return {
   dependencies = { "williamboman/mason.nvim" },
   lazy = false,
   opts = {
-    ensure_installed = {"awk_ls", "bashls", "clangd", "neocmake", "lua_ls", "vimls",},
+    ensure_installed = {"bashls", "clangd", "lua_ls", "vimls",},
     auto_update = true,
     run_on_start = true,
     start_delay = 0,

@@ -231,3 +231,7 @@ require'lspconfig'.tinymist.setup(
   }
 )
 --]]
+
+require'lspconfig'.bashls.setup{}
+require'lspconfig'.clangd.setup{}
+require'lspconfig'.vimls.setup{}
