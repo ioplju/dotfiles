@@ -1,0 +1,29 @@
+[display]
+compact = true
+
+[updates]
+auto_update = true
+
+[style.description]
+underline = false
+bold = true
+
+[style.command_name]
+foreground = "green"
+underline = false
+bold = false
+
+[style.example_text]
+foreground = "yellow"
+underline = false
+bold = false
+
+[style.example_code]
+foreground = "purple"
+underline = false
+bold = false
+
+[style.example_variable]
+foreground = "cyan"
+underline = false
+bold = false

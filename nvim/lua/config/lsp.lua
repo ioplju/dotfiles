@@ -81,6 +81,18 @@ require'lspconfig'.lua_ls.setup(
   }
 })
 
+-- Clangd
+vim.fn.system('rm /home/alexandre.baconnet/.local/share/nvim/mason/bin/clangd')
+vim.fn.system('ln -s /run/current-system/sw/bin/clangd /home/alexandre.baconnet/.local/share/nvim/mason/bin/clangd')
+require'lspconfig'.clangd.setup(
+    coq.lsp_ensure_capabilities{
+        on_attach = add_mappings,
+        opts = {
+            filetypes = { "c",},
+        },
+    }
+)
+
 --[[
 -- Python pyls (jedi, ruff, rope, mypy)
 
@@ -231,7 +243,8 @@ require'lspconfig'.tinymist.setup(
   }
 )
 --]]
-
-require'lspconfig'.bashls.setup{}
-require'lspconfig'.clangd.setup{}
-require'lspconfig'.vimls.setup{}
+require'lspconfig'.bashls.setup(
+    coq.lsp_ensure_capabilities{}
+)
+-- TODO make it better than quickhack
+--require'lspconfig'.vimls.setup{}
