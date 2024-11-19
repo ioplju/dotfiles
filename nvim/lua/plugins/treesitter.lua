@@ -9,7 +9,7 @@ return {
       -- or "all"
       ensure_installed = {
         "c", "lua", "vim", "vimdoc",
-        "awk", "bash", "cmake", "diff", "make", "passwd", "printf", "readline", "regex", "ssh_config", "strace", "udev", "zathurarc",
+        "awk", "bash", "cmake", "diff", "make", "meson", "passwd", "printf", "readline", "regex", "ssh_config", "strace", "udev", "zathurarc",
         "comment", "markdown", "markdown_inline",
         "git_config", "git_rebase", "gitattributes", "gitcommit", "gitignore",
       },
